@@ -26,7 +26,7 @@
     "text-encoding": "^0.6.4"
   },
   "devDependencies": {
-    "@types/chai": "^4.0.4",
+    "@types/chai": "4.0.4",
     "@types/mocha": "^2.2.43",
     "@types/text-encoding": "0.0.32",
     "chai": "^4.1.2",
