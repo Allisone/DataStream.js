@@ -1701,7 +1701,7 @@ export default class DataStream {
                     const len = t[2];
                     let length = 0;
                     if (typeof len === "function") {
-                        length = len(struct, this, t);
+                        length = len(struct as Object & DataStream, this, t);
                     } else if (typeof len === "string" && struct[len] != null) {
                         length = parseInt(struct[len], 10);
                     } else {
